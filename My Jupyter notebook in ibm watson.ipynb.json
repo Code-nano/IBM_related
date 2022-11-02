@@ -1,0 +1,107 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "# My Jupyter Notebook in IBM Watson Studio"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**MUHAMMAD IMRAN HAIQAL**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "I am interested in data science because in my world data is key, and i want to utilise data to the fullest"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### This code is for the simplification of mathematical expressions using Python's built in functions (example)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "image/png": "iVBORw0KGgoAAAANSUhEUgAAAA0AAAASCAYAAACAa1QyAAAAh0lEQVR4nO3RIQ7CYAwF4G8EPY0kCIIbllsg8NNIkknEfwcugOAeCE5CgkQR/GZ+1WTLMFM0eWlf05fXtEVKya8xC/yACx74oMUtiuaBn1Hhixc2Y5xOWKPEsW+96HTvGxxyGhV/0eSi+Nx9Bixy3uGa6zeaKNqiDr1VBjzRxPUSigEsmfIQHbJ7ECMDdcssAAAAAElFTkSuQmCC\n",
+      "text/latex": [
+       "$\\displaystyle 1$"
+      ],
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "from sympy import *\n",
+    "x, y, z = symbols('x y z')\n",
+    "init_printing(use_unicode=True)\n",
+    "\n",
+    "simplify(sin(x)**2 + cos(x)**2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "| $flavour$        | $size$           | $Price$   |\n",
+    "| :------------:   |:-------------:   | :------:  |\n",
+    "| $gold$           | $single$         | \\$1600    |\n",
+    "| $vanilla$        | $double$         |   \\$12    |\n",
+    "| $chocolate$      | $triple$         |    \\$1    |\n",
+    "\n",
+    "> i'd prefer to get the vanilla ngl. why?\n",
+    "\n",
+    "1. It's not that expensive\n",
+    "2. it's tasty\n",
+    "\n",
+    "* i'll eat what i want\n",
+    "\n",
+    "here's a photo of it\n",
+    "\n",
+    "![alt text][logo]\n",
+    "\n",
+    "[logo]:https://static.toiimg.com/thumb/54677722.cms?imgsize=134423&width=509&height=340\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3.9",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 1
+}
